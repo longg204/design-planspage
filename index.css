@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+:root {
+    text-color: #45494F;
+    text-bold-color: #121212;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+    border-radius: 20px
+}
+
+.controls {
+    height: 52px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+.controls__edit {
+    display: flex;
+    justify-content: center;
+}
+/* .controls__edit img:first {
+    margin-top: 0;
+} */
+.controls__edit img {
+}
+
+.controls__link {
+    width: 558px;
+    height: 28px;
+    border: 1px solid;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+.controls__link p{
+    text-align: center;
+    color: var(text-color);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 6px;
+}
+
+.controls__newtab {
+    margin-top: 5px;
+}
+
+.header {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    width: 800px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0px 2px #e5e6e9;
+    
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+}
+
+.nav__left img{
+    margin-right: 10px;
+}
+.menu__list {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.menu__list li {
+    list-style-type: none;
+}
+.menu__list li:first-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu__item.active a {
+    font-weight: 500;
+}
+.nav__right {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__list li{
+    list-style-type: none;
+}
+.btn__signup {
+    width: 105px;
+    background-color: #121212;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 14px;
+    color: white;
+}
+
+
+
+
+
+
+/*------------------------------------------*/
+.ourplans {
+    padding: 0 10px;
+    width: 105px;
+    height: 28px;
+    margin: 64px auto 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #8d919a;
+    border-radius: 20px;
+    align-items: center;
+    background-color: #e5e6e9;
+}
+.ourplans__link {
+    list-style: disc;
+    color: black;
+}
+
