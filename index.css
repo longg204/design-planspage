@@ -114,7 +114,6 @@ button {
 
 .menu__item.active a{
     font-weight: 500;
-    color: red ;
 }
 .menu__list li:first-child {
     font-size: 18px;
